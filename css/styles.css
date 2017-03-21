@@ -151,6 +151,10 @@ body {
 .home-icons {
   width: 8rem;
   height: 7rem;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -165,6 +169,7 @@ body {
 }
 .home-events h1 {
 	font-weight: 700;
+  margin-bottom: 4rem;
 }
 /* End homepage */
 /* About page */
@@ -238,6 +243,10 @@ body {
 
 .program-container .block2 {
 	padding: 0 3rem;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -250,7 +259,11 @@ body {
 .calendar-banner {
 	height: 30rem;
 	color: #c31010;
-	display: flex;
+	display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
 	align-items: center;
 	justify-content: center;
 }
@@ -295,7 +308,11 @@ footer {
 
 footer p {
 	text-align: center;
-	display: flex;
+	display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   margin: 0;
@@ -335,6 +352,10 @@ footer p {
 @media screen and (min-width:768px) {
 	.home-boxes,
   .program-container {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
   }
   .program-container .block1, .program-container .block2 {
@@ -344,7 +365,11 @@ footer p {
 
 @media screen and (min-width: 600px) {
 	.home-callout {
-		display: flex;
+		display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
 		align-items: center;
 	  justify-content: space-around;
 	}
