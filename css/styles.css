@@ -3,6 +3,7 @@ body {
 	padding-bottom: 5rem; 
 	position: relative;
 	font-size: 1.75rem;
+  padding-top: 70px;
 }
 
 .navbar {
@@ -16,6 +17,13 @@ body {
 .navbar-default .navbar-brand span {
 	color: #333;
 	font-size: 4rem;
+}
+
+.navbar-default .navbar-brand span.logo-txt-small {
+  font-size: 1rem;
+  margin-left: 34px;
+  margin-top: -2px;
+  position: absolute;
 }
 
 .navbar-brand {
@@ -204,6 +212,23 @@ body {
 	color: #c31010;
 }
 /* About page end */
+
+/* Membership page */
+
+.membership-links p {
+  margin-bottom: 0;
+}
+
+#membership a {
+  color: rgba(195, 16, 16, 0.7);
+}
+
+#membership a:hover {
+  text-decoration: underline;
+}
+
+/* Membership page end */
+
 
 /* Program page */
 
