@@ -175,9 +175,18 @@ body {
 .home-events {
   padding-bottom: 4rem;
 }
+
 .home-events h1 {
 	font-weight: 700;
   margin-bottom: 4rem;
+}
+.home-events a {
+  font-weight: bold;
+  color: #333;
+}
+
+.home-events a:hover {
+  color: #c7c7c7;
 }
 /* End homepage */
 /* About page */
