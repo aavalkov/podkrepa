@@ -22,6 +22,9 @@
 		<meta name="msapplication-TileColor" content="#ffffff">
 		<meta name="msapplication-TileImage" content="images/favicons/ms-icon-144x144.png">
 		<meta name="theme-color" content="#ffffff">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<script src="https://zeffy-scripts.s3.ca-central-1.amazonaws.com/embed-form-script.min.js"></script>
+		<script src="https://kit.fontawesome.com/dabbf9478d.js" crossorigin="anonymous"></script>
 	</head>
 	<body>
 		<nav class="navbar navbar-default navbar-fixed-top">
@@ -59,13 +62,19 @@
 		<section class="home-boxes-container">
 			<div class="container">
 				<div class="row home-boxes">
-					<div class="col-md-6 col-sm-6 home-box">
+					<div class="col-md-4 col-sm-4 home-box">
 						<span class="home-icons"><i class="fa fa-info fa-3x" aria-hidden="true"></i></span>
 						<h2>About</h2>
 						<p>Podkrepa is a Bulgarian and Macedonian cultural/social organization in Portland, OR</p>
 						<a href="#about" class="btn btn-primary btn-learn-more">Learn more</a>
 					</div>
-					<div class="col-md-6 col-sm-6 home-box">
+					<div class="col-md-4 col-sm-4 home-box">
+						<span class="home-icons"><i class="fa-solid fa-hand-holding-dollar fa-3x" aria-hidden="true"></i></span>
+						<h2>Donate</h2>
+						<p>Donations help us continue to provide educational and cultural activities that support our community.</p>
+						<button class="btn btn-primary btn-donate" zeffy-form-link="https://www.zeffy.com/embed/donation-form/2ccdeb88-cfd1-463f-8689-f8f43b995137?modal=true">Donate</button>
+					</div>
+					<div class="col-md-4 col-sm-4 home-box">
 						<span class="home-icons"><i class="fa fa-users fa-3x" aria-hidden="true"></i></span>
 						<h2>Programs</h2>
 						<p>We offer a variety of literature, dance, and other cultural programs for all ages.</p>
@@ -79,10 +88,21 @@
 				<div class="row">
 					<div class="col-md-12">
 						<h1 align="center">Upcoming Events</h1>
-<!-- 						<h3>Dance workshop with Prof. Dr. Anton Andonov</h3>
-						<h4>Join us on Friday, February 9th, 7:00PM at Podkrepa Hall</h4> -->
-<!-- 						<br/>
-						<br/> -->
+						<h3>Rosna Kitka monthly dances with live music!</h3>
+						<h4>Join us on Friday, March 28th at Podkrepa Hall</h4>
+						<p>Nesto Dobro is a new band of longtime friends: Dennis Godfrey - leader, gadulka, tambura, Jill Poris - accordion, tambura, vocals, Alethia Devi – tupan, vocals, David Shochat – kaval, and Jon Rand – upright bass</p>
+						<br/>
+						<h3>Kef from Eugene performing @ Podkrepa Hall</h3>
+						<h4>Join us on Saturday, April 5th at Podkrepa Hall</h4>
+						<p>Cody Simmons, director, truba, trumpet, Alex Lowe, trumpet, Sharon Rogers, accordion, tambura, baritone horn, vocals, Nisha Calkins, cello, baritone horn, Ken Sokolov, tupan, drum set</p>
+ 						<br/>
+ 						<h3>Annual celebrations for St. George’s Day</h3>
+ 						<h4>Join us on Saturday, May 10th at Rooster Rock State Park</h4>
+						<br/> 
+						<h3>Taman from Seattle performing</h3>
+						<h4>Join us on Saturday, June 7th at Podkrepa Hall</h4>
+						<p>John Morovich – accordion, vocals and Talia McGill - vocals</p>
+						<br/> 
 						<p>For more information and pictures of our events, visit our <a href="https://www.facebook.com/PodkrepaPortland/" target="_blank">facebook</a> page!</p>
 					</div>
 				</div>
@@ -143,6 +163,8 @@
 							<p class="sub-title">Join Us:</p>
 							<p>Meetings are usually the 3rd Saturday of the month at 4:00 pm at Podkrepa.</p>
 							<p>Annual dues are $60 per individual as of January 21, 2015.</p>
+							<button class="btn btn-primary" zeffy-form-link="https://www.zeffy.com/embed/donation-form/57586bff-35d3-4627-8570-3cf7e30d01cd?modal=true">Pay Membership Dues</button>
+							<br/>
 							<br/>
 							<p class="sub-title">Forms:</p>
 							<div class="membership-links">
@@ -166,9 +188,11 @@
 				</div>
 				<div class="block2">
 					<h2>Българче - Cultural and Educational Program</h2>
-					<p>Every Sunday from 1:00pm to 4:00pm the program offers kids a chance to learn or improve their ability to read, write, and speak Bulgarian. This class includes a mixture of reading, writing, history, and Bulgarian folk dances.</p>
+					<p>Every Sunday from 11:00am to 2:00pm the program offers kids a chance to learn or improve their ability to read, write, and speak Bulgarian. This class includes a mixture of reading, writing, history, and Bulgarian folk dances.</p>
 					<p>Our teachers are highly skilled and great with the kids!</p>
 					<p>Visit our <a href="https://www.facebook.com/groups/172382422944939/" target="_blank">Bulgarche Facebook</a> page for photos and more information!</p>
+					<button class="btn btn-primary" zeffy-form-link="https://www.zeffy.com/embed/donation-form/9f2a53b2-7d26-4ee3-a76f-20a2dd910851?modal=true">Donate to Българче</button>
+
 				</div>
 			</div>
 		</div>
@@ -221,7 +245,7 @@
 			</div>
 		</div>
 <!-- Calendar -->
-		<div class="calendar-banner" id="calendar">
+		<!-- <div class="calendar-banner" id="calendar">
 			<h1 align="center">Calendar</h1>
 		</div>
 		<div class="calendar-block">
@@ -230,7 +254,7 @@
 					<iframe src="//calendar.google.com/calendar/embed?src=podkrepapdx%40gmail.com&ctz=America/Los_Angeles" style="border: 0" width="100%" height="800" frameborder="0" scrolling="no"></iframe>
 				</div>
 			</div>
-		</div>
+		</div> -->
 <!-- Contact -->
 		<section class="text-banner grey-section" id="contact">
 			<h1>Contact Us</h1>
@@ -250,6 +274,6 @@
 		<footer>
 			<p>2116 N Killingsworth St. Portland, OR 97217 &bull; <a href="//www.facebook.com/PodkrepaPortland/" target="_blank" class="footer-socials"><i class="fa fa-facebook-square fa-2x"></i></a></p>
 		</footer>
-	   <script src="https://use.fontawesome.com/b01386227f.js"></script>
+	   <!-- <script src="https://use.fontawesome.com/b01386227f.js"></script> -->
 	</body>
 </html>
