@@ -154,7 +154,16 @@ body {
 	background-color: #fff;
   color: #c31010;
   padding: 6px 25px;
+  font-size: 15px;
 }
+
+.btn-donate {
+	margin-top: 2em;
+  padding: 6px 25px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
 
 .home-icons {
   width: 8rem;
@@ -265,6 +274,13 @@ body {
 
 .p-section-1 {	
 	border-top: 1px solid #eaeaea;
+}
+
+.p-section-1 button {
+	  font-size: 17px;
+    font-weight: 600;
+    max-width: 50%;
+    margin-top: 10px;
 }
 
 .program-container img {
@@ -380,6 +396,28 @@ footer p {
     width: 100%;
     text-align: center;
   }
+  .homepage-banner h1 {
+		font-size: 5em;
+		font-weight: 700;
+		color: #fff;
+		text-shadow: 1px 1px 1px #000;
+	}
+
+	.homepage-banner h2 {
+		font-size: 2em;
+		color: #fff;
+		text-shadow: 1px 1px 1px #000;
+		text-align: center;
+	}
+	.text-banner h1 {
+		color: #c31010;
+		font-size: 5rem;
+		font-weight: 700;
+	}
+	.calendar-banner h1 {
+		font-size: 5rem;
+		font-weight: 700;
+	}
 }
 
 
